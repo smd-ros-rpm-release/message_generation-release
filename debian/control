@@ -1,0 +1,12 @@
+Source: ros-groovy-message-generation
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://ros.org/wiki/message_generation
+Standards-Version: 3.9.2
+
+Package: ros-groovy-message-generation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-genlisp,ros-groovy-genpy,ros-groovy-genmsg,ros-groovy-gencpp
+Description: Package modeling the build-time dependencies for generating language bindings of messages.
