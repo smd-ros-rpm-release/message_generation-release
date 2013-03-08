@@ -1,0 +1,12 @@
+Source: ros-hydro-message-generation
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/message_generation
+Standards-Version: 3.9.2
+
+Package: ros-hydro-message-generation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-gencpp, ros-hydro-genlisp, ros-hydro-genmsg, ros-hydro-genpy
+Description: Package modeling the build-time dependencies for generating language bindings of messages.
