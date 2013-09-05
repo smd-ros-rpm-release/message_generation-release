@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <package>
   <name>message_generation</name>
-  <version>0.2.9</version>
+  <version>0.2.10</version>
   <description>Package modeling the build-time dependencies for generating language bindings of messages.</description>
-  <maintainer email="dthomas@willowgarage.com">Dirk Thomas</maintainer>
+  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
   <license>BSD</license>
 
   <url>http://ros.org/wiki/message_generation</url>
   <url type="bugtracker">https://github.com/ros/message_generation/issues</url>
   <url type="repository">https://github.com/ros/message_generation</url>
 
-  <build_depend>catkin</build_depend>
+  <buildtool_depend>catkin</buildtool_depend>
 
   <run_depend>gencpp</run_depend>
   <run_depend>genlisp</run_depend>
