@@ -1,0 +1,12 @@
+Source: ros-indigo-message-generation
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-catkin
+Homepage: http://ros.org/wiki/message_generation
+Standards-Version: 3.9.2
+
+Package: ros-indigo-message-generation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-gencpp, ros-indigo-genlisp, ros-indigo-genmsg, ros-indigo-genpy
+Description: Package modeling the build-time dependencies for generating language bindings of messages.
